@@ -1,0 +1,108 @@
+body {
+    background-color: #002C59;
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+
+
+
+main {
+    width: 600px;
+    height: 95vh;
+    margin: 0 auto;
+    @media only screen and (max-width: 600px) {
+        width: 100vw;
+        margin: 0;
+    }
+    section {
+         width: 100%;
+         height: 33%;
+         border-bottom: 1px solid #ffffba;
+    }
+}
+
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1 {
+        color: #ffffba;
+        font-size: 2.5rem;
+        text-align: center;
+        margin: 40px 20px 0 20px;
+        @media only screen and (max-width: 600px) {
+            margin: 20px 15px 0 15px;
+            font-size: 1.25em;
+        }
+    }
+    img {
+        height: 150px;
+        width: auto;
+        margin: 0 auto;
+        @media only screen and (max-width: 800px) {
+            height: 125px;
+        }
+        @media only screen and (max-width: 400px) {
+            height: 100px;
+        }
+    }
+}
+
+.timer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    .figureWrapper {
+        padding: 5px;
+        width: 120px;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        .container {
+            width: 90%;
+            height: 50%;
+            font-size: 4rem;
+            text-align: center;
+            line-height: 5rem;
+            color: #ffffba;
+            border-bottom: 0.5px dotted #DA3931;
+
+            @media only screen and (max-width: 600px) {
+                font-size: 3em;
+                line-height: 4rem;
+
+            }
+        }
+        .label {
+            width: 90%;
+            height: 20%;
+            font-size: 1.2em;
+            text-align: center;
+            line-height: 2.5rem;
+            color: #ffffba;
+            text-transform: uppercase;
+            @media only screen and (max-width: 600px) {
+                font-size: 1em;
+                line-height: 1.9rem;
+            }
+        }
+    }
+}
+
+.misc {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        border-radius: 5%;
+        max-height: 85%;
+        width: auto;
+    }
+}
