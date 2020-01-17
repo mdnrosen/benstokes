@@ -6,11 +6,11 @@ window.addEventListener('DOMContentLoaded', () => {
 
             const now = moment()
             const benStokes = moment()
-                .set('year', 2019)
-                .set('month', 7)
-                .set('date', 25)
-                .set('hour', 16)
-                .set('minute', 17)
+                .set('year', 2020)
+                .set('month', 01)
+                .set('date',07)
+                .set('hour', 15)
+                .set('minute', 06)
                 .set('seconds', 0)
         
             const days = now.diff(benStokes, 'days') 
