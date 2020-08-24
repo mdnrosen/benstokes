@@ -7,14 +7,18 @@ window.addEventListener('DOMContentLoaded', () => {
             const now = moment()
             const benStokes = moment()
                 .set('year', 2020)
-                .set('month', 01)
-                .set('date',07)
-                .set('hour', 15)
-                .set('minute', 06)
+                .set('month', 06)
+                .set('date',20)
+                .set('hour', 11)
+                .set('minute', 55)
                 .set('seconds', 0)
+
+
         
             const days = now.diff(benStokes, 'days') 
             const rawHours = (now.diff(benStokes, 'hours')) 
+
+            console.log(rawHours)
             const rawMinutes = (now.diff(benStokes, 'minutes')) 
             const rawSeconds = (now.diff(benStokes, 'seconds')) 
 
