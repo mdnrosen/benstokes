@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 .set('date',20)
                 .set('hour', 11)
                 .set('minute', 55)
-                .set('seconds', 0)
+
 
 
         
